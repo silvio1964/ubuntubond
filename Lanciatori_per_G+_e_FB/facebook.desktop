@@ -1,0 +1,53 @@
+
+[Desktop Entry]
+Version=1.0
+Name=Facebook
+Comment=Lanciatore di Facebook per unity
+Exec=xdg-open 'https://www.facebook.com'
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=facebook-logo.png
+Categories=Network;WebBrowser;
+X-Ayatana-Desktop-Shortcuts=Flusso;Feed;Messaggi;Eventi;Amici;Applicazioni;Gruppo;Fotografie
+Name[it_IT]=Facebook
+
+[Stream Shortcut Group]
+Name=Facebook Flusso
+Exec=xdg-open 'https://www.facebook.com'
+TargetEnvironment=Unity
+
+[Feed Shortcut Group]
+Name=Feed delle Notizie
+Exec=xdg-open 'http://www.facebook.com/?sk=nf'
+TargetEnvironment=Unity
+
+[Messaggi Shortcut Group]
+Name=Facebook Messaggi
+Exec=xdg-open 'http://www.facebook.com/?sk=inbox'
+TargetEnvironment=Unity
+
+[Eventi Shortcut Group]
+Name=Facebook Eventi
+Exec=xdg-open 'http://www.facebook.com/?sk=events&ap=1'
+TargetEnvironment=Unity
+
+[Amici Shortcut Group]
+Name=Facebook Amici
+Exec=xdg-open 'http://www.facebook.com/?sk=ff&ap=1'
+TargetEnvironment=Unity
+
+[Applicazioni Shortcut Group]
+Name=Facebook Applicazioni
+Exec=xdg-open 'http://www.facebook.com/?sk=apps&ap=1'
+TargetEnvironment=Unity
+
+[Gruppoo Shortcut Group]
+Name=Facebook Gruppi
+Exec=xdg-open 'http://www.facebook.com/?sk=2361831622'
+TargetEnvironment=Unity
+
+[Fotografie Shortcut Group]
+Name=Facebook Fotografie
+Exec=xdg-open 'http://www.facebook.com/?sk=media'
+TargetEnvironment=Unity

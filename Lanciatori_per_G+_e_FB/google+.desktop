@@ -1,0 +1,39 @@
+[Desktop Entry]
+Version=1.0
+Name=Google+
+Comment=Google+ su Unity
+Exec=xdg-open 'https://plus.google.com'
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=google+1.png
+Categories=Network;WebBrowser;
+X-Ayatana-Desktop-Shortcuts=Stream;Cerchia;Notifiche;Spunti;Immagini;Luoghi di Ritrovo;Profilo
+[Stream Shortcut Group]
+Name=Google+ Stream
+Exec=xdg-open 'https://plus.google.com'
+TargetEnvironment=Unity
+[Notifiche Shortcut Group]
+Name=Google+ Notifiche
+Exec=xdg-open 'https://plus.google.com/notifications/all'
+TargetEnvironment=Unity
+[Cerchie Shortcut Group]
+Name=Google+ Cerchia
+Exec=xdg-open 'https://plus.google.com/circles'
+TargetEnvironment=Unity
+[Spunti Shortcut Group]
+Name=Google+ Spunti
+Exec=xdg-open 'https://plus.google.com/sparks'
+TargetEnvironment=Unity
+[Immagini Shortcut Group]
+Name=Google+ Immagini
+Exec=xdg-open 'https://plus.google.com/photos'
+TargetEnvironment=Unity
+[Hangouts Shortcut Group]
+Name=Google+ Luoghi di Ritrovo
+Exec=xdg-open 'https://plus.google.com/hangouts'
+TargetEnvironment=Unity
+[Profilo Shortcut Group]
+Name=Google+ Profilo
+Exec=xdg-open 'https://plus.google.com/me'
+TargetEnvironment=Unity
